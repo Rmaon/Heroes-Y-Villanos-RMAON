@@ -1,0 +1,31 @@
+{
+  "heroes": [
+    {
+      "tipo": "Heroe",
+      "nombre": "Ramon",
+      "apellidos": "Heroe",
+      "fecha_nacimiento": "20/02/2002",
+      "identificador": "b859618b-f10a-4eb7-86ec-4c8607324acf",
+      "puntuacion_total": 209,
+      "codigo_limpio": 25,
+      "bien_documentado": 64,
+      "gitgod": 87,
+      "arquitecto": 32,
+      "detallista": 1
+    }
+  ],
+  "villanos": [
+    {
+      "tipo": "Villano",
+      "nombre": "Ramon",
+      "apellidos": "Villano",
+      "fecha_nacimiento": "02/10/2002",
+      "identificador": "a93deafe-0a1c-46c4-9180-79e315c402c2",
+      "puntuacion_total": 159,
+      "chagepeteador": 12,
+      "entregador_tardio": 61,
+      "ausencias": 79,
+      "hablador": 7
+    }
+  ]
+}
