@@ -200,9 +200,11 @@ def buscar_personajes():
         print('No se encontraron coincidencias.')
 
 def mostrar_edades():
+    print()
     print('Edades de héroes:')
     for h in heroes:
         print(f"{h.nombre} {h.apellidos}: {calcular_edad(h.fecha_nacimiento)} años")
+    print()
     print('Edades de villanos:')
     for v in villanos:
         print(f"{v.nombre} {v.apellidos}: {calcular_edad(v.fecha_nacimiento)} años")
