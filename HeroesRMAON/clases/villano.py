@@ -42,3 +42,18 @@ class Villano(Persona):
             ausencias=data.get('ausencias'),
             hablador=data.get('hablador')
         )
+
+    def to_string(self):
+        parts = [
+            f"Nombre: {self.nombre} {self.apellidos}",
+            f"Fecha nacimiento: {self.fecha_nacimiento}",
+            f"Puntuación total: {self.puntuacion_total}",
+            f"Chagepeteador: {self.chagepeteador}",
+            f"Entregador Tardío: {self.entregador_tardio}",
+            f"Ausencias: {self.ausencias}",
+            f"Hablador: {self.hablador}"
+        ]
+        return ' | '.join(parts)
+
+    def __str__(self):
+        return self.to_string()

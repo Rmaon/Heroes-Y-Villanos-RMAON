@@ -32,6 +32,23 @@ class Heroe(Persona):
         })
         return base
 
+    def to_string(self):
+        """Devuelve una representación legible con todas las cualidades (sin el identificador)."""
+        parts = [
+            f"Nombre: {self.nombre} {self.apellidos}",
+            f"Fecha nacimiento: {self.fecha_nacimiento}",
+            f"Puntuación total: {self.puntuacion_total}",
+            f"Código Limpio: {self.codigo_limpio}",
+            f"Bien Documentado: {self.bien_documentado}",
+            f"GITGod: {self.gitgod}",
+            f"Arquitecto: {self.arquitecto}",
+            f"Detallista: {self.detallista}"
+        ]
+        return ' | '.join(parts)
+
+    def __str__(self):
+        return self.to_string()
+
     @classmethod
     def from_dict(cls, data):
         return cls(

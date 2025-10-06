@@ -23,10 +23,7 @@ def get_logger(name='heroesyvillanos', level=logging.INFO, max_bytes=1024*1024, 
 	handler = RotatingFileHandler(nombre_fichero, maxBytes=max_bytes, backupCount=backup_count, encoding='utf-8')
 	handler.setFormatter(fmt)
 	logger.addHandler(handler)
-	# also add a console handler for convenience
-	ch = logging.StreamHandler()
-	ch.setFormatter(fmt)
-	logger.addHandler(ch)
+	# Note: no console handler added so logs are written only to the file
 	return logger
 
 

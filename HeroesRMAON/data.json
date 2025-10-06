@@ -12,6 +12,32 @@
       "gitgod": 87,
       "arquitecto": 32,
       "detallista": 1
+    },
+    {
+      "tipo": "Heroe",
+      "nombre": "Joseleitor",
+      "apellidos": "Beniter",
+      "fecha_nacimiento": "02/08/2000",
+      "identificador": "236edb17-f4bd-47ae-b2b7-aef5c1dcb052",
+      "puntuacion_total": 300,
+      "codigo_limpio": 75,
+      "bien_documentado": 84,
+      "gitgod": 75,
+      "arquitecto": 32,
+      "detallista": 34
+    },
+    {
+      "tipo": "Heroe",
+      "nombre": "Joselin",
+      "apellidos": "Heroico",
+      "fecha_nacimiento": "21/03/2000",
+      "identificador": "969a9c22-ef02-4533-a76f-1f5b2b157258",
+      "puntuacion_total": 238,
+      "codigo_limpio": 47,
+      "bien_documentado": 64,
+      "gitgod": 1,
+      "arquitecto": 57,
+      "detallista": 69
     }
   ],
   "villanos": [
